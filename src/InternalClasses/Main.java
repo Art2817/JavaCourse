@@ -49,19 +49,4 @@ public class Main implements Printer {
                     + message.getText());
         }
     }
-
-
-    // test
-    public static void main(String[] args) {
-        Main printer = new Main();
-
-        Message msg1 = new Message("hello", "Artem");
-        Message msg2 = new Message("test", null);
-        Message msg3 = new Message(null, null);
-
-        printer.print(msg1);
-        printer.print(msg2);
-        printer.print(msg3);
-    }
-
 }
